@@ -11,7 +11,6 @@ function clamp(num, min, max) {
 function memoryPerWorker(memory = 3){
   const cpuCount = os.cpus().length;
   const systemMemory = Math.round(os.totalmem() / 1024 / 1024 / 1024);
-  console.log(os.totalmem())
 
   const optimum = Math.floor(systemMemory / memory);
 
