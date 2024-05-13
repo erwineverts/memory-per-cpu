@@ -5,7 +5,7 @@ This is very handy for testing with for example jest. Where modern computers hav
 
 ## Jest example
 
-```js
+```javascript
 // jest.config.js
 
 const memoryPerCpu = require('memory-per-cpu');
