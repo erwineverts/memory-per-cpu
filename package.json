@@ -14,7 +14,8 @@
     "testing",
     "workers"
   ],
-  "files": ["index.js", "README.md"],
+  "files": ["index.js", "index.d.ts", "README.md"],
+  "types": "index.d.ts",
   "author": "Erwin Everts <info@erwineverts.nl> (https://erwineverts.nl)",
   "homepage": "https://github.com/erwineverts/memory-per-cpu#readme",
   "license": "MIT",
