@@ -3,7 +3,7 @@
     "jest": "^30.0.5"
   },
   "name": "memory-per-cpu",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Gives the most ammount of cpu's while keeping in mind how much memory is needed per cpu. Handy to set the amount of workers for testing",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,8 @@
     "testing",
     "workers"
   ],
-  "files": ["index.js", "README.md"],
+  "files": ["index.js", "index.d.ts", "README.md"],
+  "types": "index.d.ts",
   "author": "Erwin Everts <info@erwineverts.nl> (https://erwineverts.nl)",
   "homepage": "https://github.com/erwineverts/memory-per-cpu#readme",
   "license": "MIT",
